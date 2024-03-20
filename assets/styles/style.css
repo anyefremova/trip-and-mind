@@ -1,6 +1,7 @@
 .main__page {
     background-image: url(../images/background_image.png);
     padding-left: 3vw;
+    height: 100vh;
 }
 
 .block__header {
@@ -31,7 +32,7 @@ a:active {
 }
 
 .block__main_page {
-    padding: 17vh 0 11.5vh 0;
+    padding: 15vh 0 0 0;
 }
 
 .main_content {
@@ -95,19 +96,22 @@ a:active {
 
 .block__tours {
     margin: 5vh 0;
+    display: flex;
+    align-items: center;
 }
+
 
 .tours_img {
     position: relative;
 }
 
 .image_tours {
-    width: 50vw;
+    width: 60vw;
 }
 
 .tours_img__text {
     position: absolute;
-    bottom: 0;
+    bottom: 3vh;
     left: 0;
     font-family: 'Montserrat';
     font-style: normal;
@@ -117,11 +121,57 @@ a:active {
 }
 
 .tours_img__title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin: 0 0 1.5vh 0;
 }
 
 .tours_img__subtitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0 0 2vh 0;
+}
+
+.tours_content {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.tours_content__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #333333;
+    width: 26vw;
+    margin: 0;
+}
+
+.tours_content__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    color: #333333;
+    width: 35vw;
+    margin: 4vh 0;
+}
+
+.tours_content__button {
+    box-sizing: border-box;
+    width: 30vw;
+    height: 12vh;
+    border: 2px solid #EFC224;
+    border-radius: 38px;
+    background-color: transparent;
+}
+
+.button_tour {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #EFC224;
 }
