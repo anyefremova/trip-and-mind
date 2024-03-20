@@ -68,7 +68,29 @@
                 </button>
             </div>
         </section>
-        <section class="section3"></section>
+        <section class="block__form">
+            <div class="form_container">
+                <div class="form_text">
+                    <p class="form_text__title">Свяжитесь с нами</p>
+                    <p class="form_text__subtitle">Оставьте заявку, а мы перезвоним Вам в ближайшее время</p>
+                </div>
+                <div class="form__content">
+                    <form action="#" method="post" class="form_block">
+                        <input type="text" id="name" class="form_input" name="name" pattern="[А-Яа-я]+"
+                            placeholder="Ваше имя" title="Name should consist of letters only" required>
+                        <input type="tel" id="phone" class="form_input" name="phone" pattern="\+7\d{10}"
+                            placeholder="+7 (___) __-__-__-___" title="Номер необходимо ввести в формате: +7XXXXXXXXXXX"
+                            required>
+                        <input type="submit" class="form_button" value="Отправить заявку" href="#">
+                    </form>
+                    <div class="form__personal_information">
+                        Нажимая кнопку “отправить заявку”, вы даёте согласие на <a href="#"
+                            class="ref__personal_information">обработку персональных
+                            данных</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section4"></section>
         </main>
         <footer class="footer"></footer>
