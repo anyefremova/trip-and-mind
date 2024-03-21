@@ -7,6 +7,7 @@
     <title>Trip & Mind</title>
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/normalize.css">
+    <link href="./index.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,41 +17,21 @@
 
 <body>
     <div class="container">
-        <div class="main__page">
-            <header class="header">
-                <div class="block__header">
-                    <div class="header_logo">
-                        <a href="page2.html"><img src="./assets/images/logo_main.svg" href="#"></a>
-                    </div>
-                    <div class="header_menu">
-                        <nav class="menu_nav">
-                            <a href="./page2.html#tours" class="menu_element">Туры</a>
-                            <a href="./page2.html#reviews" class="menu_element">Отзывы</a>
-                            <a href="./page2.html#contacts" class="menu_element">Контакты</a>
-                        </nav>
-                    </div>
+        <header class="header">
+            <div class="block__header header_dark">
+                <div class="header_logo">
+                    <a href="index.html"><img src="./assets/images/logo_dark.svg"></a>
                 </div>
-            </header>
-            <section class="block__main_page">
-                <div class="main_content">
-                    <h1 class="main_title">Открой для себя Камчатку</h1>
-                    <p class="main_text">Авторские туры по</p>
-                    <p class="main_text">Камчатскому Краю от компании TMG</p>
-                    <button class="main_button">
-                        <a href="./page2.html" class="button_ref">Оставить заявку</a>
-                    </button>
-                    <div class="main_social">
-                        <p class="social_text">Подписывайтесь на нас в соцсетях</p>
-                        <div class="social_icons">
-                            <img src="./assets/images/icon_yt.svg" class="icons_element">
-                            <img src="./assets/images/icon_vk.svg" class="icons_element">
-                            <img src="./assets/images/icon_tg.svg" class="icons_element">
-                            <img src="./assets/images/icon_inst.svg" class="icons_element">
-                        </div>
-                    </div>
-            </section>
-        </div>
-        <!-- <section class="block__tours">
+                <div class="header_menu">
+                    <nav class="menu_nav">
+                        <a href="#tours" class="menu_element element_dark">Туры</a>
+                        <a href="#reviews" class="menu_element element_dark">Отзывы</a>
+                        <a href="#contacts" class="menu_element element_dark">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="block__tours" id="tours">
             <div class="tours_img">
                 <img src="./assets/images/lake_image.png" class="image_tours">
                 <div class="tours_img__text">
@@ -68,7 +49,7 @@
                 </button>
             </div>
         </section>
-        <section class="block__form">
+        <section class="block__form" id="contacts">
             <div class="form_container">
                 <div class="form_text">
                     <p class="form_text__title">Свяжитесь с нами</p>
@@ -91,7 +72,7 @@
                 </div>
             </div>
         </section>
-        <section class="block__reviews">
+        <section class="block__reviews" id="reviews">
             <div class="reviews_content">
                 <p class="reviews_content__title">Что пишут наши клиенты</p>
                 <div class="reviews_content__text">
@@ -129,7 +110,7 @@
                     <img src="./assets/images/dark_inst.svg" class="icons_element">
                 </div>
             </div>
-        </footer> -->
+        </footer>
     </div>
 </body>
 

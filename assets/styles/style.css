@@ -13,6 +13,11 @@
     padding-top: 3vh;
 }
 
+.header_dark {
+    align-items: center;
+    margin-left: 5vw;
+}
+
 .header_menu {
     margin-left: 20vw;
     font-family: 'Montserrat';
@@ -33,6 +38,10 @@ a {
 
 a:active {
     color: #EFAA24;
+}
+
+.element_dark {
+    color: #000000;
 }
 
 .block__main_page {
@@ -99,7 +108,7 @@ a:active {
 }
 
 .block__tours {
-    margin-top: 5vh;
+    margin-top: 2vh;
     display: flex;
     align-items: center;
 }
@@ -318,7 +327,7 @@ a:active {
     font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
-    line-height: 2.3rem;
+    line-height: 1.8rem;
     color: #333333;
     margin: 4vh 0;
     width: 30vw;
