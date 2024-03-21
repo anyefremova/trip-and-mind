@@ -17,7 +17,7 @@
 
 <body>
     <div class="container">
-        <header class="header">
+        <header class="header header_page2" id="mainHeader">
             <div class="block__header header_dark">
                 <div class="header_logo">
                     <a href="index.html"><img src="./assets/images/logo_dark.svg"></a>
@@ -58,12 +58,13 @@
                 <div class="form__content">
                     <form action="#" method="post" class="form_block">
                         <input type="text" id="name" class="form_input" name="name" pattern="[А-Яа-я]+"
-                            placeholder="Ваше имя" title="Name should consist of letters only" required>
+                            placeholder="Ваше имя" title="Имя должно состоять только из кириллицы" required>
                         <input type="tel" id="phone" class="form_input" name="phone" pattern="\+7\d{10}"
                             placeholder="+7 (___) __-__-__-___" title="Номер необходимо ввести в формате: +7XXXXXXXXXXX"
                             required>
-                        <input type="submit" class="form_button" value="Отправить заявку" href="#">
+                        <input type="submit" class="form_button" vlaue="Отправить заявку" href="./page2.html">
                     </form>
+                    <div id="formMessage"></div>
                     <div class="form__personal_information">
                         Нажимая кнопку “отправить заявку”, вы даёте согласие на <a href="#"
                             class="ref__personal_information">обработку персональных
@@ -112,6 +113,16 @@
             </div>
         </footer>
     </div>
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.getElementById('mainHeader');
+            if (window.scrollY > 0) {
+                header.classList.add('header_fixed');
+            } else {
+                header.classList.remove('header_fixed');
+            }
+        });
+    </script>
 </body>
 
 </html>

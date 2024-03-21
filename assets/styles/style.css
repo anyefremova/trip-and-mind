@@ -8,6 +8,21 @@
     height: 100vh;
 }
 
+.header_page2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+    background-color: #fff;
+    padding-bottom: 2vh;
+}
+
+.header_fixed {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .block__header {
     display: flex;
     padding-top: 3vh;
@@ -31,13 +46,32 @@
     padding-right: 2vw;
 }
 
-a {
+.menu_element {
     color: #FFFFFF;
+}
+
+.menu_element:hover {
+    color: #EFAA24;
+    transition: all 0.7s;
+}
+
+
+.menu_element:active {
+    color: #EFAA24;
+}
+
+a {
     text-decoration: none;
 }
 
-a:active {
+.main_button:hover {
+    background: transparent;
+    border: 2px solid #EFAA24;
+}
+
+.button_ref:hover {
     color: #EFAA24;
+    transition: all 0.7s;
 }
 
 .element_dark {
@@ -108,11 +142,10 @@ a:active {
 }
 
 .block__tours {
-    margin-top: 2vh;
+    margin-top: 13vh;
     display: flex;
     align-items: center;
 }
-
 
 .tours_img {
     position: relative;
@@ -180,6 +213,11 @@ a:active {
     background-color: transparent;
 }
 
+.content__button:hover {
+    background-color: #EFC224;
+    transition: all 0.7s;
+}
+
 .button_yw {
     font-family: 'Montserrat';
     font-style: normal;
@@ -187,6 +225,11 @@ a:active {
     font-size: 2rem;
     line-height: 2rem;
     color: #EFC224;
+}
+
+.button_yw:hover {
+    color: #333333;
+    transition: all 1.1s;
 }
 
 .block__form {
