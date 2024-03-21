@@ -162,7 +162,7 @@ a:active {
     margin: 4vh 0;
 }
 
-.tours_content__button {
+.content__button {
     box-sizing: border-box;
     width: 30vw;
     height: 12vh;
@@ -171,7 +171,7 @@ a:active {
     background-color: transparent;
 }
 
-.button_tour {
+.button_yw {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -228,7 +228,6 @@ a:active {
     font-style: normal;
     font-weight: 700;
     font-size: 1.5rem;
-    line-height: 45px;
     letter-spacing: 0.13em;
     color: #333333;
     padding-left: 2vw;
@@ -236,27 +235,26 @@ a:active {
 }
 
 .form_button {
-    width: 368px;
-    height: 75px;
+    width: 28.5vw;
+    height: 10vh;
     background: #EFC224;
     border-radius: 38px;
     border: 0;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 45px;
+    font-size: 1.7rem;
     color: #333333;
 }
 
 .form__personal_information {
-    width: 381px;
-    height: 59px;
+    width: 28.5vw;
+    height: 5vh;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 11px;
-    line-height: 30px;
+    font-size: 0.7rem;
+    line-height: 4vh;
     color: #333333;
     text-align: center;
     margin-top: 2vh;
@@ -264,4 +262,86 @@ a:active {
 
 .ref__personal_information {
     color: #EF4924;
+}
+
+.block__reviews {
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.reviews_img {
+    position: relative;
+}
+
+.image_reviews {
+    width: 55vw;
+}
+
+.reviews_img__text {
+    position: absolute;
+    bottom: 3vh;
+    left: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-left: 1vw;
+}
+
+.reviews_img__title {
+    font-size: 1.75rem;
+    margin: 0 0 0.7vh 0;
+    width: 45vw;
+}
+
+.reviews_content {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews_content__title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #333333;
+    width: 40vw;
+    margin: 0;
+}
+
+.reviews_content__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #333333;
+    margin: 4vh 0;
+    width: 30vw;
+}
+
+.reviews_content__text1,
+.reviews_content__text2 {
+    margin: 0;
+}
+
+.block__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 6vh 0 4vh 0;
+}
+
+.footer_text {
+    width: 18vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #333333;
 }
