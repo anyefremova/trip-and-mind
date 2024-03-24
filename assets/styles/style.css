@@ -135,10 +135,17 @@ a {
 
 .social_icons {
     display: flex;
+    align-items: center;
 }
 
 .icons_element {
     margin-right: 3vw;
+    height: 2vh;
+}
+
+.element_tg,
+.element_inst {
+    height: 4vh;
 }
 
 .block__tours {
@@ -152,7 +159,7 @@ a {
 }
 
 .image_tours {
-    width: 60vw;
+    width: 55vw;
 }
 
 .tours_img__text {
@@ -186,8 +193,8 @@ a {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 800;
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 3.2rem;
+    line-height: 3rem;
     color: #333333;
     width: 26vw;
     margin: 0;
@@ -197,20 +204,26 @@ a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     line-height: 2.3rem;
     color: #333333;
     width: 35vw;
-    margin: 4vh 0;
+    margin: 4.5vh 0;
+}
+
+.button_wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .content__button {
     box-sizing: border-box;
-    width: 30vw;
-    height: 12vh;
+    width: 24vw;
+    min-height: 10vh;
     border: 2px solid #EFC224;
     border-radius: 38px;
     background-color: transparent;
+    text-align: center;
 }
 
 .content__button:hover {
@@ -222,7 +235,7 @@ a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     color: #EFC224;
 }
@@ -248,10 +261,11 @@ a {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 800;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     line-height: 3rem;
     color: #333333;
     margin: 0 3vw 5vh 0;
+    width: 15vw;
 }
 
 .form_text__subtitle {
@@ -259,8 +273,8 @@ a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 2.2rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     color: #333333;
     margin: 0;
 }
@@ -306,7 +320,7 @@ a {
     font-style: normal;
     font-weight: 500;
     font-size: 0.7rem;
-    line-height: 4vh;
+    line-height: 2.3vh;
     color: #333333;
     text-align: center;
     margin-top: 2vh;
@@ -322,13 +336,12 @@ a {
     align-items: center;
 }
 
-
 .reviews_img {
     position: relative;
 }
 
 .image_reviews {
-    width: 55vw;
+    width: 53.8vw;
 }
 
 .reviews_img__text {
@@ -358,8 +371,8 @@ a {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 800;
-    font-size: 4rem;
-    line-height: 5rem;
+    font-size: 3.2rem;
+    line-height: 3rem;
     color: #333333;
     width: 40vw;
     margin: 0;
@@ -369,11 +382,11 @@ a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     color: #333333;
-    margin: 4vh 0;
-    width: 30vw;
+    margin: 4.2vh 0;
+    width: 35vw;
 }
 
 .reviews_content__text1,
