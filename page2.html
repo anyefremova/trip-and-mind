@@ -19,7 +19,7 @@
         <header class="header header_page2" id="mainHeader">
             <div class="block__header header_dark">
                 <div class="header_logo">
-                    <a href="index.html"><img src="./assets/images/logo_dark.svg"></a>
+                    <a href="index.html"><img src="./assets/images/logo_dark.svg" alt="logo"></a>
                 </div>
                 <div class="header_menu">
                     <nav class="menu_nav">
@@ -30,71 +30,72 @@
                 </div>
             </div>
         </header>
-        <section class="block__tours" id="tours">
-            <div class="tours_img">
-                <img src="./assets/images/lake_image.png" class="image_tours" alt="lake">
-                <div class="tours_img__text">
-                    <p class="tours_img__title">Полуостров Камчатка</p>
-                    <p class="tours_img__subtitle">12-24 июня</p>
-                </div>
-            </div>
-            <div class="tours_content">
-                <p class="tours_content__title">Изучите все
-                    направления туров</p>
-                <p class="tours_content__text">Тихий океан, действующие вулканы Мутновский, Горелый и Толбачик,
-                    фумарольные поля, термальные источники, лавовые потоки и Мертвый лес. </p>
-                <div class="button_wrapper">
-                    <button class="content__button">
-                        <a href="#" class="button_yw">Смотреть все туры</a>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <section class="block__form" id="contacts">
-            <div class="form_container">
-                <div class="form_text">
-                    <p class="form_text__title">Свяжитесь с нами</p>
-                    <p class="form_text__subtitle">Оставьте заявку, а мы перезвоним Вам в ближайшее время</p>
-                </div>
-                <div class="form__content">
-                    <form action="#" method="post" class="form_block">
-                        <input type="text" id="name" class="form_input" name="name" pattern="[А-Яа-я]+"
-                            placeholder="Ваше имя" title="Имя должно состоять только из кириллицы" required>
-                        <input type="tel" id="phone" class="form_input" name="phone" pattern="\+7\d{10}"
-                            placeholder="+7 (___) __-__-__-___" title="Номер необходимо ввести в формате: +7XXXXXXXXXXX"
-                            required>
-                        <input type="submit" class="form_button" value="Отправить заявку" href="./page2.html">
-                    </form>
-                    <div id="formMessage"></div>
-                    <div class="form__personal_information">
-                        Нажимая кнопку “отправить заявку”, вы даёте согласие на <a href="#"
-                            class="ref__personal_information">обработку персональных
-                            данных</a>
+        <main>
+            <section class="block__tours" id="tours">
+                <div class="tours_img">
+                    <img src="./assets/images/lake_image.png" class="image_tours" alt="lake">
+                    <div class="tours_img__text">
+                        <p class="tours_img__title">Полуостров Камчатка</p>
+                        <p class="tours_img__subtitle">12-24 июня</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="block__reviews" id="reviews">
-            <div class="reviews_content">
-                <p class="reviews_content__title">Что пишут наши клиенты</p>
-                <div class="reviews_content__text">
-                    <p class="reviews_content__text1">4500 отзывов уже оставили наши клиенты.</p>
-                    <p class="reviews_content__text2">Более 80% путешественников
-                        приходят к нам по рекомендации
-                        друзей или знакомых.</p>
+                <div class="tours_content">
+                    <p class="tours_content__title">Изучите все
+                        направления туров</p>
+                    <p class="tours_content__text">Тихий океан, действующие вулканы Мутновский, Горелый и Толбачик,
+                        фумарольные поля, термальные источники, лавовые потоки и Мертвый лес. </p>
+                    <div class="button_wrapper">
+                        <button class="content__button">
+                            <a href="#" class="button_yw">Смотреть все туры</a>
+                        </button>
+                    </div>
                 </div>
-                <button class="content__button">
-                    <a href="#" class="button_yw">Читать все отзывы</a>
-                </button>
-            </div>
-            <div class="reviews_img">
-                <img src="./assets/images/vulcan_image.png" class="image_reviews" alt="vulcan">
-                <div class="reviews_img__text">
-                    <p class="reviews_img__title">Все началось с мечты.</p>
-                    <p class="reviews_img__title">Это было лучшее путешествие в моей жизни...</p>
+            </section>
+            <section class="block__form" id="contacts">
+                <div class="form_container">
+                    <div class="form_text">
+                        <p class="form_text__title">Свяжитесь с нами</p>
+                        <p class="form_text__subtitle">Оставьте заявку, а мы перезвоним Вам в ближайшее время</p>
+                    </div>
+                    <div class="form__content">
+                        <form action="#" method="post" class="form_block">
+                            <input type="text" id="name" class="form_input" name="name" pattern="[А-Яа-я]+"
+                                placeholder="Ваше имя" title="Имя должно состоять только из кириллицы" required>
+                            <input type="tel" id="phone" class="form_input" name="phone" pattern="\+7\d{10}"
+                                placeholder="+7 (___) __-__-__-___"
+                                title="Номер необходимо ввести в формате: +7XXXXXXXXXXX" required>
+                            <input type="submit" class="form_button" value="Отправить заявку">
+                        </form>
+                        <div id="formMessage"></div>
+                        <div class="form__personal_information">
+                            Нажимая кнопку “отправить заявку”, вы даёте согласие на <a href="#"
+                                class="ref__personal_information">обработку персональных
+                                данных</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <section class="block__reviews" id="reviews">
+                <div class="reviews_content">
+                    <p class="reviews_content__title">Что пишут наши клиенты</p>
+                    <div class="reviews_content__text">
+                        <p class="reviews_content__text1">4500 отзывов уже оставили наши клиенты.</p>
+                        <p class="reviews_content__text2">Более 80% путешественников
+                            приходят к нам по рекомендации
+                            друзей или знакомых.</p>
+                    </div>
+                    <button class="content__button">
+                        <a href="#" class="button_yw">Читать все отзывы</a>
+                    </button>
+                </div>
+                <div class="reviews_img">
+                    <img src="./assets/images/vulcan_image.png" class="image_reviews" alt="vulcan">
+                    <div class="reviews_img__text">
+                        <p class="reviews_img__title">Все началось с мечты.</p>
+                        <p class="reviews_img__title">Это было лучшее путешествие в моей жизни...</p>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="footer">
             <div class="block__footer">
