@@ -204,11 +204,11 @@ a {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 1.5rem;
-    line-height: 2.3rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
     color: #333333;
-    width: 35vw;
-    margin: 4.5vh 0;
+    width: 37vw;
+    margin: 5.5vh 0;
 }
 
 .button_wrapper {
@@ -381,9 +381,9 @@ a {
 .reviews_content__text {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.4rem;
-    line-height: 1.7rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2rem;
     color: #333333;
     margin: 4.2vh 0;
     width: 35vw;
